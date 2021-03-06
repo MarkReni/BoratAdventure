@@ -1,0 +1,29 @@
+
+Peli on tehty uuden Borat 2 elokuvan kunniaksi. Peli noudattaa Borat elokuvista tuttua huumoria.
+
+Pelin tarkoituksena on löytää Pamela, joka piileksii jossakin kartalla näkyvässä osavaltiossa (kts. map.png) ja suudella tätä.
+Eli pelaajan on siirrettävä Borat samalle osavaltiolle, jossa Pamela on ja komennolla "kiss" suudella tätä voittaakseen pelin. Yksinkertaista!
+
+Pelin aluksi valitaan pelitason vaikeus mikä tarkoittaa yksinkertaisesti sitä, että montako kierrosta pelaajalla on ennen kuin poliisi ottaa Boratin kiinni:
+   easy -> 16 kierrosta
+   medium -> 12 kierrosta
+   hard -> 9 kierrosta
+
+Miten peli läpäistään nopeasti?
+-->
+1. Matkusta Missourin osavaltioon -> käytä komentoa "fly missouri"
+2. Osta Budweiser olut -> käytä komentoa "buy budweiser"
+3. Soita Azamatille ja selvitä missä hän sijaitsee -> käytä komentoa "call"
+4. Anna Azamatille olut ja vastapalveluksena Azamat paljastaa yhden kirjaimen osavaltion nimestä, jossa Pamela on -> käytä komentoa "give budweiser"
+5. Paljasta kirjain osavaltion nimestä, jossa Pamela piileksii --> käytä komentoa "unravel"
+6. Tulosta osavaltion nimi -> käytä komentoa "check"
+7. Katso kartasta mikä osavaltio voisi olla kyseessä (kts. map.png)
+8. Matkusta osavaltioon, jossa Pamela on -> voit käyttää komentoa "fly + osavaltion nimi" tai "drive + osavaltion nimi"
+9. Suutele Pamelaa ja voita peli -> käytä komentoa "kiss"
+HUOM! Tämä kaikki on tehtävä esim. vaikeustasolla "hard" 9 pelikierroksen aikana eli ennen kuin poliisi nappaa Boratin.
+
+Peli tarjoaa apukeinoja tehtävän onnistumisessa:
+1. itemit nimeltään mask, coat ja hat piilottavat Boratin poliiseilta kolmen pelikierroksen ajaksi. Itemeitä voi käyttää "use" komennolla ja ne löytyvät satunnaisesti kartalta.
+2. mikäli rahat loppuvat, niin komennolla "entertain" Borat kertoo elokuvasta tutun fraasin, jolla Borat saa tienattua rahaa.
+
+Komennolla "help" löytyvät ohjeet pelin komennoista.
